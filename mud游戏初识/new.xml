@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<game>
+    <map>
+        <scene1 scene1 = "罗格镇">
+            <describtion passerby = "这是一个寻常的小镇[罗格镇]，这里的[镇长]十分的和谐">
+            </describtion>
+            <NPC npc1 = "镇长">
+                <talk1 TALK = "这附近的[青青草原]有许多的[史莱姆]，还有一只更强的[史莱姆之王]，真希望能有人去打倒它。">
+                </talk1>
+                <talk2 TALK = "勇士您真是了不起，听说您打赢了史莱姆之王，我代表镇里的人感谢你。对了，听说隔壁的[黑熊岭]有两只黑熊很苦恼，勇士您去帮帮他们吧">
+                </talk2>
+            </NPC>
+        </scene1>
+        <scene2 scene2 = "青青草原">
+            <describtion2 passerby = "这里原本是美丽的青青草原，但现在被[史莱姆]占领着，他们之间还有一只强大的[史莱姆之王]">
+            </describtion2>
+            <monster monsters = "史莱姆">
+                <atr>20</atr>
+                <def>5</def>
+                <hp>100</hp>
+                <gexp>50</gexp>
+            </monster>
+            <boss king = "史莱姆之王">
+                <atr>50</atr>
+                <def>20</def>
+                <hp>200</hp>
+                <esp>50</esp>
+            </boss>
+        </scene2>
+        <scene3 scene3 = "黑熊岭">
+            <describtion3 passerby = "这里是从零茂盛的[黑熊岭]，[熊大]和[熊二]在里面开心的生活着，但最近他们遇到了一些烦心事。">
+            </describtion3>
+            <NPC1 npc = "熊大">
+                <Talk1 TALK = "您就是在[罗格镇]打败史莱姆的勇士吧，哎，最近我和熊二碰到了一些麻烦，您愿意帮帮我们吗？">
+                </Talk1>
+                <Talk2 TALK = "如果您愿意帮我的话，就去找熊二谈谈吧">
+                </Talk2>
+            </NPC1>
+            <NPC2 npc = "熊二">
+                <Talk0 TALK = "嘿，你谁啊，有事找我大哥去，我忙着呢！">
+                </Talk0>
+                <Talk1 TALK = "欢迎您，英雄，最近[黑熊岭森林]的树木老是被偷偷地砍掉，您能帮我去找找凶手吗？">
+                </Talk1>
+                <Talk2 Talk = "原来这是光头强砍的树，太过分了，冒险家，您能帮我去打败光头强吗？我可以把这套天下第一的[假猪套]送给你，有了它，你就不用怕光头强的[万世铁马幽魂魔战套]了。">
+                </Talk2>
+            </NPC2>
+        </scene3>
+        <scene4 scene4 = "黑熊岭森林">
+            <describtion4 passerby = "咦，这里就是[黑熊岭森林]吗？不过怎么光秃秃的啊！">
+            </describtion4>
+            <describtion5 yourself = "北边有个人影？容俺老孙去[看看]！">
+            </describtion5>
+            <monster boss = "光头强">
+                <Talk TALK = "嘿小子！你是谁，竟然敢打扰本大爷砍树？老子可是[光头强]！">
+                </Talk>
+            </monster>
+        </scene4>
+    </map>
+    <hero>
+        <public>
+            <atr atr = "50">
+            </atr>
+            <def def = "10">
+            </def>
+            <hp hp = "200">
+            </hp>
+            <lev lev = "1">
+            </lev>
+            <exp exp = "0">
+            </exp>
+            <nexp exp2 = "100">
+            </nexp>
+            <maxhp maxhp = "200">
+            </maxhp>
+        </public>
+        <private>
+            <addatr>30</addatr>
+            <adddef>1</adddef>
+            <addhp>50</addhp>
+        </private>
+    </hero>
+</game>
+
+
+
+            
